@@ -1,0 +1,100 @@
+2022-10-23 13:56:34 Data preprocessing Started--------
+2022-10-23 13:56:36 Sucessfully load the dataset 
+2022-10-23 13:56:36 Analysis of dataset...........................
+2022-10-23 13:56:36 Shape of the dataset:(9171, 30)
+2022-10-23 13:56:36 Stastics Analysis :<bound method DataFrame.info of       29  F  f f.1 f.2 f.3 f.4 f.5 f.6  t  ... f.14  ?.1 f.15   ?.2 f.16 ?.3  \
+0     29  F  f   f   f   f   f   f   f  f  ...    t  128    f     ?    f   ?   
+1     41  F  f   f   f   f   f   f   f  f  ...    f    ?    f     ?    f   ?   
+2     36  F  f   f   f   f   f   f   f  f  ...    f    ?    f     ?    f   ?   
+3     32  F  f   f   f   f   f   f   f  f  ...    f    ?    f     ?    f   ?   
+4     60  F  f   f   f   f   f   f   f  f  ...    f    ?    f     ?    f   ?   
+...   .. .. ..  ..  ..  ..  ..  ..  .. ..  ...  ...  ...  ...   ...  ...  ..   
+9166  56  M  f   f   f   f   f   f   f  f  ...    t   64    t  0.83    t  77   
+9167  22  M  f   f   f   f   f   f   f  f  ...    t   91    t  0.92    t  99   
+9168  69  M  f   f   f   f   f   f   f  f  ...    t  113    t  1.27    t  89   
+9169  47  F  f   f   f   f   f   f   f  f  ...    t   75    t  0.85    t  88   
+9170  31  M  f   f   f   f   f   f   f  t  ...    t   66    t  1.02    t  65   
+
+     f.17 ?.4  other  -[840801013]  
+0       f   ?  other  -[840801014]  
+1       t  11  other  -[840801042]  
+2       t  26  other  -[840803046]  
+3       t  36  other  S[840803047]  
+4       t  26  other  -[840803048]  
+...   ...  ..    ...           ...  
+9166    f   ?    SVI  -[870119022]  
+9167    f   ?    SVI  -[870119023]  
+9168    f   ?    SVI  I[870119025]  
+9169    f   ?  other  -[870119027]  
+9170    f   ?  other  -[870119035]  
+
+[9171 rows x 30 columns]>
+2022-10-23 13:56:36 Data preprocessing started.........
+2022-10-23 13:56:36 Sucessfully Rename the Columns
+2022-10-23 13:56:36 Sucessfully Rename the columns Sucessfully
+2022-10-23 13:56:36 Sucessfully Extrated information from the target variable.
+2022-10-23 13:56:36 Sucessfully Replaced all thyroidal diseases into one variable
+2022-10-23 13:56:36 Sucessfully Classified the target features into 0 and 1.
+2022-10-23 13:56:36 Sucessfully Replaced all ? into Null values.
+2022-10-23 13:56:36 Sucessfully Droped column TBG and T3 for high missing values.
+2022-10-23 13:56:36 sucessfully imputing the unknown where male and female not mentioned
+2022-10-23 13:56:36 Sucessfully Droped outliers from age feature.
+2022-10-23 13:56:36 Sucessfully convert string into Numeric
+2022-10-23 13:56:36 Sucessfully fill the NAN values 
+2022-10-23 13:56:36 Sucessfully Encoded the categorical features
+2022-10-23 13:56:36 To view the preprocessed dataset: input :       age  sex  thyroxine  query_thyroxine  medication  sick  pregnant  \
+0      28    0          0                0           0     0         0   
+1      40    0          0                0           0     0         0   
+2      35    0          0                0           0     0         0   
+3      31    0          0                0           0     0         0   
+4      59    0          0                0           0     0         0   
+...   ...  ...        ...              ...         ...   ...       ...   
+9166   55    1          0                0           0     0         0   
+9167   21    1          0                0           0     0         0   
+9168   68    1          0                0           0     0         0   
+9169   46    0          0                0           0     0         0   
+9170   30    1          0                0           0     0         0   
+
+      surgery  I131_treatment  query_hypothyroid  ...  T3_measured  \
+0           0               0                  0  ...            1   
+1           0               0                  0  ...            0   
+2           0               0                  0  ...            0   
+3           0               0                  0  ...            0   
+4           0               0                  0  ...            0   
+...       ...             ...                ...  ...          ...   
+9166        0               0                  0  ...            0   
+9167        0               0                  0  ...            0   
+9168        0               0                  0  ...            0   
+9169        0               0                  0  ...            0   
+9170        0               0                  1  ...            0   
+
+      TT4_measured  TT4  T4U_measured  T4U  FTI_measured  FTI  TBG_measured  \
+0                1  137             0   72             0  132             0   
+1                0  117             0   72             0  132             1   
+2                0  117             0   72             0  132             1   
+3                0  117             0   72             0  132             1   
+4                0  117             0   72             0  132             1   
+...            ...  ...           ...  ...           ...  ...           ...   
+9166             1   72             1   56             1   95             0   
+9167             1   99             1   65             1  117             0   
+9168             1  122             1  102             1  107             0   
+9169             1   83             1   58             1  106             0   
+9170             1   74             1   77             1   83             0   
+
+      other  outcome  
+0         5        0  
+1         5        0  
+2         5        0  
+3         5        1  
+4         5        0  
+...     ...      ...  
+9166      3        0  
+9167      3        0  
+9168      3        1  
+9169      5        0  
+9170      5        0  
+
+[9167 rows x 28 columns]
+2022-10-23 13:56:36 Saving the processed data ........
+2022-10-23 13:56:37 Successfully saved the data in a csv file.
+2022-10-23 13:56:37 Sucessfully Data preprocessed----------------------------

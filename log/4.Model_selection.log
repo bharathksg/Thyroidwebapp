@@ -1,0 +1,30 @@
+2022-10-23 13:59:32 The Model_selection process is Startes
+2022-10-23 13:59:32 Sucessfully loading the train dataset========================
+2022-10-23 13:59:32 Sucessfully loading the test dataset========================
+2022-10-23 13:59:32 Sucessfully Created the pipeline========================
+2022-10-23 13:59:32 sucessfully train to the model
+2022-10-23 13:59:33 sucessfully train to the model
+2022-10-23 13:59:34 sucessfully train to the model
+2022-10-23 13:59:34 sucessfully train to the model
+2022-10-23 13:59:34 sucessfully train to the model
+2022-10-23 13:59:35 sucessfully train to the model
+2022-10-23 13:59:35 Sucessfully predicted the Y_prediction
+2022-10-23 13:59:35 the performance metrics of all the model.......
+2022-10-23 13:59:35 The Accuracy of Logistic_Regression 80.92
+2022-10-23 13:59:35 The Recall of Logistic_Regression 0.3
+2022-10-23 13:59:35 --------------------------------------------------------------------
+2022-10-23 13:59:35 The Accuracy of SVC 80.92
+2022-10-23 13:59:35 The Recall of SVC 0.3
+2022-10-23 13:59:35 --------------------------------------------------------------------
+2022-10-23 13:59:35 The Accuracy of KNN 82.17
+2022-10-23 13:59:35 The Recall of KNN 0.46
+2022-10-23 13:59:35 --------------------------------------------------------------------
+2022-10-23 13:59:35 The Accuracy of xgboost 90.13
+2022-10-23 13:59:35 The Recall of xgboost 0.76
+2022-10-23 13:59:35 --------------------------------------------------------------------
+2022-10-23 13:59:35 The Accuracy of decision_tree 87.02
+2022-10-23 13:59:35 The Recall of decision_tree 0.74
+2022-10-23 13:59:35 --------------------------------------------------------------------
+2022-10-23 13:59:35 The Accuracy of Random_forest 90.75
+2022-10-23 13:59:35 The Recall of Random_forest 0.79
+2022-10-23 13:59:35 Sucessfullly Model Selection process is completed.
